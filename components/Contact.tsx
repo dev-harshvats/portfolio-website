@@ -5,7 +5,6 @@ import { GithubIcon, LinkedinIcon } from "@/components/Icons";
 
 export default function Contact() {
   const email = "h.harshvats@gmail.com";
-  const phone = "+91 9625531247";
 
   return (
     <section id="contact" className="relative z-10 border-t border-zinc-200 dark:border-zinc-900 pt-12 lg:pt-16 pb-12 transition-colors duration-300">
@@ -48,18 +47,11 @@ export default function Contact() {
           >
             <Mail className="h-6 w-6" />
           </a>
-          <a
-            href={`tel:${phone}`}
-            className="p-3.5 bg-zinc-100 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800 text-zinc-500 dark:text-zinc-400 hover:text-white dark:hover:text-white hover:bg-[#0d9488] hover:border-[#0d9488] rounded-full transition-all duration-300 hover:scale-110 hover:shadow-cyan-glow flex items-center justify-center"
-            aria-label="Phone Number"
-          >
-            <Phone className="h-6 w-6" />
-          </a>
         </div>
 
         {/* Footer info */}
         <div className="mt-20 text-xs text-zinc-400 dark:text-zinc-500 font-light select-none">
-          <p>© {new Date().getFullYear()} Harsh Vats. Built with Next.js & Tailwind CSS.</p>
+          <p>Designed & Created by <b><b>Harsh Vats</b></b></p>
         </div>
       </div>
     </section>
