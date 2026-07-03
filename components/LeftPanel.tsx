@@ -23,7 +23,6 @@ export default function LeftPanel() {
   const [activeSection, setActiveSection] = useState("about");
 
   const email = "h.harshvats@gmail.com";
-  const phone = "+91 9625531247";
 
   // Typing Roles Effect
   useEffect(() => {
@@ -178,13 +177,6 @@ export default function LeftPanel() {
               aria-label="Direct Email"
             >
               <Mail className="h-5 w-5" />
-            </a>
-            <a
-              href={`tel:${phone}`}
-              className="p-3 bg-zinc-100 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800 text-zinc-500 dark:text-zinc-400 hover:text-white dark:hover:text-white hover:bg-[#0d9488] hover:border-[#0d9488] rounded-full transition-all duration-300 hover:scale-110 hover:shadow-cyan-glow flex items-center justify-center"
-              aria-label="Phone Number"
-            >
-              <Phone className="h-5 w-5" />
             </a>
           </div>
 
