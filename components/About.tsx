@@ -57,7 +57,7 @@ export default function About() {
                   </span>
                   <span className="flex items-center gap-1">
                     <Award className="h-3 w-3" />
-                    CGPA: 8.15 / 10.0
+                    CGPA: 8.20 / 10.0
                   </span>
                 </div>
               </div>
