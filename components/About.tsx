@@ -21,7 +21,7 @@ export default function About() {
             <p className="text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed font-light">
               {"I'm"} an Electronics & Communication Engineering student at{" "}
               <span className="whitespace-nowrap text-zinc-900 dark:text-white font-medium">Delhi Technological University</span> (Class of 2027),
-              maintaining a B.Tech CGPA of <span className="text-indigo-600 dark:text-cyan-400 font-semibold">8.15 / 10.0</span>.
+              maintaining a B.Tech CGPA of <span className="text-indigo-600 dark:text-cyan-400 font-semibold">8.20 / 10.0</span>.
             </p>
             <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
               I am highly passionate about software engineering and systems programming, specializing in data structures, algorithms, and building performant full-stack products. Having solved over{" "}
